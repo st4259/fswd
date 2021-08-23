@@ -1,0 +1,21 @@
+.firstbox {
+    border: black 2px solid;
+}
+#internal_ul{
+    background-color:cyan; border: gray 2px solid;
+}
+h2{
+    background-color:lightgoldenrodyellow;
+}
+p[name="first_p_tag"] {
+    background-color:pink;
+}
+body{
+    background-color:green;
+}
+img{
+    border-radius:30%;
+}
+div{
+    border-radius:20%;
+}

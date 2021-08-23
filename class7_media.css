@@ -1,0 +1,36 @@
+.mobile {
+    display: block;
+    background-color: greenyellow;
+    font-size: 30px;
+}
+.tablet {
+    display:none;
+    font-size: 60px;
+}
+.laptop {
+    display:none;
+    font-size: 90px;
+}
+@media (min-width: 768px) {
+    .mobile{
+        display: none;
+    }
+    .tablet {
+        display: block;
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 1024px) {
+    .mobile{
+        display: none;
+    }
+    .tablet {
+        display: none;
+        background-color: yellow;
+    }
+    .laptop{
+        display:block;
+        background-color: teal;
+    }
+}
